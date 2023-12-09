@@ -9,7 +9,7 @@ await canvas.connect();
 const canvasInfo = await canvas.canvasInfo();
 console.log(`Canvas is ${canvasInfo.width}x${canvasInfo.height}`);
 
-const imagePath = "static/rainbow.jpg";
+const imagePath = "static/acm-image.png";
 const image = await imagejs.Image.load(imagePath);
 console.log(`Loaded ${imagePath} (${image.width}x${image.height})`);
 

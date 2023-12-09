@@ -1,7 +1,7 @@
 import { LEDCanvas } from "christmas-client-js";
 import { startDrawing } from "#lib/svg.js";
 
-const url = "ws://localhost:9001/ws/018c34b9-2130-7d83-966a-2a93ac5bcd05";
+const url = "wss://blinktest.acmcsuf.com/ws/018c4c05-f55c-7fd8-ba3c-50a41721d237";
 const fps = 25;
 
 async function main() {
